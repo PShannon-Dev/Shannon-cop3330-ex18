@@ -1,0 +1,16 @@
+@startuml
+
+class App
+{
+    'original degree amount, and type
+    input()
+}
+App<--Converter
+class Converter
+{
+    + type
+    + initialTemp
+    + endingTemp
+    + convert()
+}
+@enduml
